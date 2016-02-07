@@ -44,8 +44,8 @@ while ct != 1000:
     ct += 1
 
 '''
-
-'''a[1][1] = 1  # self loop put at vertex 2
+'''
+a[1][1] = 1  # self loop put at vertex 2
 y = a
 ct = 0
 while ct != 1000:
@@ -56,8 +56,8 @@ while ct != 1000:
         print y
         break
     ct += 1
-'''
 
+'''
 '''a[2][2] = 1  # self loop put at vertex 3
 y = a
 ct = 0
@@ -71,7 +71,7 @@ while ct != 1000:
     ct += 1
 '''
 
-'''a[3][3] = 1  # self loop put at vertex 4
+a[3][3] = 1  # self loop put at vertex 4
 y = a
 ct = 0
 while ct != 1000:
@@ -81,7 +81,7 @@ while ct != 1000:
         print "exponent is " + str(ct)
         print y
         break
-    ct += 1'''
+    ct += 1
 
 
 '''
@@ -111,7 +111,7 @@ while ct != 1000:
         break
     ct += 1
 '''
-a[6][6] = 1  # self loop put at vertex 7
+'''a[6][6] = 1  # self loop put at vertex 7
 y = a
 ct = 0
 while ct != 100:
@@ -122,7 +122,7 @@ while ct != 100:
         print y
         break
     ct += 1
-
+'''
 
 
 
