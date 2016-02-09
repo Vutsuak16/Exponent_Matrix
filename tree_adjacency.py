@@ -30,8 +30,8 @@ while ct > 0:
         break
     ct -= 1
 
-
-'''a[0][0] = 1  # self loop put at vertex 1
+'''
+a[0][0] = 1  # self loop put at vertex 1 exponent=6
 y = a
 ct = 0
 while ct != 1000:
@@ -45,7 +45,7 @@ while ct != 1000:
 
 '''
 '''
-a[1][1] = 1  # self loop put at vertex 2
+a[1][1] = 1  # self loop put at vertex 2 ex=4
 y = a
 ct = 0
 while ct != 1000:
@@ -58,7 +58,8 @@ while ct != 1000:
     ct += 1
 
 '''
-'''a[2][2] = 1  # self loop put at vertex 3
+'''
+a[2][2] = 1  # self loop put at vertex 3 ex=6
 y = a
 ct = 0
 while ct != 1000:
@@ -70,8 +71,8 @@ while ct != 1000:
         break
     ct += 1
 '''
-
-a[3][3] = 1  # self loop put at vertex 4
+'''
+a[3][3] = 1  # self loop put at vertex 4 ex = 2
 y = a
 ct = 0
 while ct != 1000:
@@ -85,7 +86,9 @@ while ct != 1000:
 
 
 '''
-a[4][4] = 1  # self loop put at vertex 5
+'''
+
+a[4][4] = 1  # self loop put at vertex 5 ex=4
 y = a
 ct = 0
 while ct != 1000:
@@ -99,7 +102,7 @@ while ct != 1000:
     ct += 1
 '''
 '''
-a[5][5] = 1  # self loop put at vertex 6
+a[5][5] = 1  # self loop put at vertex 6 ex=4
 y = a
 ct = 0
 while ct != 1000:
@@ -111,7 +114,8 @@ while ct != 1000:
         break
     ct += 1
 '''
-'''a[6][6] = 1  # self loop put at vertex 7
+'''
+a[6][6] = 1  # self loop put at vertex 7 ex=6
 y = a
 ct = 0
 while ct != 100:
