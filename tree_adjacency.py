@@ -21,6 +21,7 @@ a[5][6] = 1
 a[6][5] = 1
 
 y = a
+print y
 ct = 100  # even on 1000 interations we dont get a positive matrix therefore we need to put self loops
 while ct > 0:
     x = a
@@ -30,21 +31,24 @@ while ct > 0:
         break
     ct -= 1
 
-'''
+
 a[0][0] = 1  # self loop put at vertex 1 exponent=6
 y = a
 ct = 0
 while ct != 1000:
+
     x = a
+    j=y
     y = np.dot(x, y)
     if 0 not in y:
+        print j
         print "exponent is " + str(ct)
         print y
         break
     ct += 1
 
-'''
-'''
+
+
 a[1][1] = 1  # self loop put at vertex 2 ex=4
 y = a
 ct = 0
@@ -57,8 +61,8 @@ while ct != 1000:
         break
     ct += 1
 
-'''
-'''
+
+
 a[2][2] = 1  # self loop put at vertex 3 ex=6
 y = a
 ct = 0
@@ -70,8 +74,8 @@ while ct != 1000:
         print y
         break
     ct += 1
-'''
-'''
+
+
 a[3][3] = 1  # self loop put at vertex 4 ex = 2
 y = a
 ct = 0
@@ -85,7 +89,7 @@ while ct != 1000:
     ct += 1
 
 
-'''
+
 '''
 
 a[4][4] = 1  # self loop put at vertex 5 ex=4
